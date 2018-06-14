@@ -1,12 +1,12 @@
 {
-  "name": "{Academy03}-project",
+  "name": "roblesvidal-project",
   "source": {
     "type": "S3",
     "location": "doa17-application/codebuild.zip"
   },
   "artifacts": {
     "type": "S3",
-    "location": "doa17-{ENVIRONMENT_NAME}",
+    "location": "doa17-roblesvidal",
     "packaging": "ZIP",
     "name": "WebAppOutputArtifact.zip"
   },
